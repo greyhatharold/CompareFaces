@@ -42,7 +42,7 @@ from PySide6.QtWidgets import (
     QWidget,
 )
 import asyncio
-from chatgpt_api_integration import create_client
+from ml_integration import create_client
 import cv2
 from face_detection import (
     detect_faces,
